@@ -1,0 +1,21 @@
+{
+    "name": "kevinbai/laravel-admin-components",
+    "description": "laravel admin ui components",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kevinbai-cn",
+            "email": "kevinbai.cn@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "~5.3"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
