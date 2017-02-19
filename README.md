@@ -11,4 +11,4 @@ laravel-admin-components
 
 License
 ------------
-`laravel-admin` is licensed under [The MIT License (MIT)](LICENSE).
+`laravel-admin-components` is licensed under [The MIT License (MIT)](LICENSE).
