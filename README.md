@@ -15,24 +15,20 @@ laravel-admin-components
 首先确保安装好了 `laravel` ，然后安装包
 ```
 Laravel 5.3
-composer require encore/laravel-admin dev-master
-
+composer require encore/laravel-admin 1.3.*
 ```
 注意：目前只有 `5.3` 的修改版本  
 在 `config/app.php` 加入 `ServiceProvider`
 ```
 Kevinbai\Admin\Providers\AdminServiceProvider::class
-
 ```
 然后发布资源
 ```
 php artisan vendor:publish --tag=laravel-admin-components
-
 ```
 在 `routes/web.php` 中配置路由
 ```
 Route::get('/admin', 'HomeController@index');
-
 ```
 最后，访问 `http://hostname/admin` 便能看到一个简洁的后台页面了
 
