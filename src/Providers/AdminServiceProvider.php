@@ -22,7 +22,7 @@ class AdminServiceProvider extends ServiceProvider
             => app_path('Http/Controllers/HomeController.php')],'laravel-admin-components');
         $this->publishes([__DIR__.'/../../controllers/ExampleController.php'
             => app_path('Http/Controllers/ExampleController')],'laravel-admin-components');
-        $this->publishes([__DIR__.'/../../bootstrap/admin.php' => app_path('bootstrap/admin.php')], 'laravel-admin-components');
+        $this->publishes([__DIR__.'/../../bootstrap/admin.php' => app_path('../bootstrap/admin.php')], 'laravel-admin-components');
         $this->publishes([__DIR__.'/../../config/admin.php' => config_path('admin.php')], 'laravel-admin-components');
         $this->publishes([__DIR__.'/../../assets' => public_path('packages/admin')], 'laravel-admin-components');
     }
