@@ -15,6 +15,9 @@
         "laravel/framework": "~5.3"
     },
     "autoload": {
+        "psr-4": {
+            "Kevinbai\\Admin\\": "src/"
+        },
         "files": [
             "src/helpers.php"
         ]
